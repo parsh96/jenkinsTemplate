@@ -1,3 +1,5 @@
 void call(){
-    println "library 2"
+    stage("library2: Build"){
+        println "build from the library2"
+    }
 }
